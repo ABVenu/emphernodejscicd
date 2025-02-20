@@ -16,9 +16,9 @@ app.use("/users", UserRoute)
 app.use("/todos", TodoRoute)
 
 connecToDb()
-app.listen(PORT, ()=>{
-    console.log("Server Started")
-})
+// app.listen(PORT, ()=>{
+//     console.log("Server Started")
+// })
 
 // testing purpose
 module.exports = app;
